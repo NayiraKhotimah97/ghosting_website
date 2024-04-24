@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>hola!</title>
+    </head>
+    <style>
+      body{
+        font-family: 'Times New Roman', Times, serif;
+        background-position: center;
+        background-size: cover;
+    }
+    .container {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        padding: 20px 25px;
+        width: 300px;
+
+    background-color: #ECCCFF;
+    box-shadow: 0 0 10px rgba(255,255,255,.3);
+    }
+    .container h1{
+    text-align: left;
+    color: #fafafa;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    border-bottom: 4px solid #B1B1B1;
+}
+      .form_box{
+        border: solid 1px #000000;
+        background-color: #FFFFFF;
+        height: 550px;
+        margin: 50px 0 0 0;
+      }
+      .form_button_red {
+        color:#FFFFFF;
+        background-color: #98006d;
+        border: solid 1px #d70189;
+        padding: 10px 30px 10px 30px;
+        border-radius: 5px;
+      }
+      .form_textbox {
+        width: 200px;
+        height: 30px;
+        background-color: #dadada;
+        border: solid 1px #bebebe;
+        border-radius: 4px;
+        margin-left: 23px;
+      }
+
+    </style>
+    <body>
+        <center>
+           <div class="from_box">
+            <div class="container">
+        <h2>Hola!</h2>
+        <p>To all spesial discounts and more
+            become a member!
+        </p>
+        <form method="GET">
+            <h2><input type="email" name="fname" placeholder="Email address" class="form_textbox"></h2>
+            <h2><input type="password" name="fname" placeholder="password" class="form_textbox"> <br></h2>
+            <h2><input type="button" value="Register" class="form_button_red"></h2>
+            <p>Go To Login Forgot Password</p>
+            <p>Or use these to login</p>
+            <input type="button" value="Facebook" class="form_button_red">
+            <input type="button" value="Google" class="form_button_red">
+        </form>
+          </div>
+        </div>
+    </center>
+    </body>
+</html>
